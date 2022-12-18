@@ -1,0 +1,9 @@
+=====================================Git and Github===================================
+
+-Version control for project sharing / open source projects
+
+- Allows you to maintain history of the project (which member made the change at what time)
+
+- Github is an online site which allows us to host our project repositories.
+
+- More online platforms like bitbucket, gitlab.

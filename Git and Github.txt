@@ -7,3 +7,67 @@
 - Github is an online site which allows us to host our project repositories.
 
 - More online platforms like bitbucket, gitlab.
+
+
+
+
+===========================================================================================Some auxiliary commands==================================================================
+
+
+-ls <directory> => Lists all the files in the directory
+
+-touch <file> => creates/opens the file 
+
+-vi <file> => opens vim to edit the specified file.
+
+-clear => clears the command line
+
+
+
+===================================================================================Some Facts ================================================
+
+
+1. Whenever resetting, select the one below all the commits that you don't want. For example if you want to delete commits 4,3,2 for commits {1,2,3,4} use git reset 1(id).
+
+2. 
+
+===============================================================================================Commands=================================================================
+
+get started with
+
+-git init => initializes .git into your project
+ --Example => "git init"
+
+
+
+-git status => Checks the status of the files and tells if any file has been added/deleted/modified ( noone would be able to see if there has been any changes until we add and commit )
+  --Example => "git status"
+
+
+
+-git add (files, default is (.) <- means all files in directory ) => Stages the files 
+  --Example => "git add ." or "git add names.txt"
+
+
+
+- git commit -m(message) => commits all the staged files
+  --Example => "git commit -m "First commit - added names.txt"
+
+
+
+- git restore --staged <file> => (un) stages the file
+  --Example => " git restore --staged names.txt"
+
+
+- git log => allows us to see all the commits till date on the repository
+ --Example => "git log"
+
+
+
+- git reset <id for the commit> => for Ith id, it will stage all commits that have been done after I.
+  --Example => "git reset 10940c8fab95de0e7383b78fe1b8df17caff5438" for staging all commits after the specified <id>
+
+
+-git  stash => stashes all the staged items. Useful if you don't want to commit all the changes you make. acts like a backstage.
+  --- use git stash pop if you want to get all the stashed items in the staging area.
+ 
